@@ -10,7 +10,7 @@
 
     
 
-    echo "Hello SAGIING";
+    echo "Hello SAGIING init";
 
     echo "Hello SAGIING lakatan";
 
