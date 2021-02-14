@@ -449,7 +449,7 @@ bottom: -170px;
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
-   <a href="bwahaha.html">Take a test</a>
+   <a href="bwahaha.php">Take a test</a>
   </div>
 </div>
 
