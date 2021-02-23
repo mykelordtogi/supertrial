@@ -55,6 +55,12 @@ a:visited{
   background: aquamarine;
   padding: 100px;
 }</style>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
 
 </head>
 <body>
@@ -133,7 +139,7 @@ a:visited{
 
 
   <button type="submit" id="submit" onclick="tabulateAnswers();">Submit Your Answers</button>
-  <button type="reset" id="reset" onclick="resetAnswer();"><a href="bwahaha.html">Reset</a></button>
+  <button type="reset" id="reset" onclick="resetAnswer();"><a href="bwahaha.php">Reset</a></button>
 
    <div id="answer">Your result will show up here.</div>
 
