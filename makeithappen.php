@@ -2,6 +2,14 @@
 <html>
 <head>
 	<title>Make it Happen - Home Page</title>
+
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
+
 </head>
 
 <style type="text/css">
@@ -440,6 +448,166 @@ bottom: -170px;
   }
 }
 
+/*3*/
+.overlay3 {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  /** it was left: 0, now it opens from right **/
+  top: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content3 {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay3 a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay3 a:hover,
+.overlay3 a:focus {
+  color: #f1f1f1;
+}
+
+.overlay3 .closebtn3 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay3 a {
+    font-size: 20px
+  }
+  .overlay3 .closebtn3 {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+/*4*/
+
+.overlay4 {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content4 {
+  position: relative;
+  top:40%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay4 a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay4 a:hover, .overlay4 a:focus {
+  color: #f1f1f1;
+}
+
+.overlay4 .closebtn4 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay4 {overflow-y: auto;}
+  .overlay4 a {font-size: 20px}
+  .overlay4 .closebtn4 {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+/*5*/
+.overlay5 {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content5 {
+  position: relative;
+  top:40%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay5 a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay5 a:hover, .overlay5 a:focus {
+  color: #f1f1f1;
+}
+
+.overlay5 .closebtn5 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay5 {overflow-y: auto;}
+  .overlay5 a {font-size: 20px}
+  .overlay5 .closebtn5 {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+
 </style>
 <link rel="stylesheet" type="text/css" href="mystyle.css">
 
@@ -449,7 +617,7 @@ bottom: -170px;
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
-   <a href="bwahaha.php">Take a test</a>
+   <a href="">Take a test</a>
   </div>
 </div>
 
@@ -460,7 +628,29 @@ bottom: -170px;
   </div>
 </div>
 
-<img src="standing.png" id="visible"></p>
+<div id="myNav3" class="overlay3">
+  <a href="javascript:void(0)" class="closebtn3" onclick="closeNav3()">&times;</a>
+  <div class="overlay-content3">
+   <a href="">Take a test</a>
+  </div>
+</div>
+
+<div id="myNav4" class="overlay4">
+  <a href="javascript:void(0)" class="closebtn4" onclick="closeNav4()">&times;</a>
+  <div class="overlay-content4">
+   <a href="bwahaha.php">Take a test</a>
+  </div>
+</div>
+
+<div id="myNav5" class="overlay5">
+  <a href="javascript:void(0)" class="closebtn5" onclick="closeNav5()">&times;</a>
+  <div class="overlay-content5">
+   <a href="withascore.php">Take a test</a>
+  </div>
+</div>
+
+
+<img class="mymenu" src="standing.png" id="visible"></p>
 
 
 
@@ -477,22 +667,22 @@ bottom: -170px;
 
 	<div class="tooltip3 column">
   <span class="tooltiptext3">Personality Test</span>
-   <li id="invisible2" class="hide"><a><figure><img src="icon3.png"></figure></a></li><br>
+   <li id="invisible2" class="hide"><a onclick="openNav4()"><figure><img src="icon3.png"></figure></a></li><br>
 </div>
 
 <div class="tooltip4 column">
   <span class="tooltiptext4">Competencies <br>and skills</span>
-   <li id="invisible4" class="hide"><a><figure><img src="icon4.png"></figure></a></li><br>
+   <li id="invisible4" class="hide"><a onclick="openNav3()"><figure><img src="icon4.png"></figure></a></li><br>
 </div>
 
 	<div class="tooltip5 column">
   <span class="tooltiptext5">Psychology</span>
-  <li id="invisible5" class="hide"><a><figure><img src="icon5.png"></figure></a></li><br>
+  <li id="invisible5" class="hide"><a onclick="openNav()"><figure><img src="icon5.png"></figure></a></li><br>
 </div>
 
 <div class="tooltip6 column">
   <span class="tooltiptext6">Multiple<br>Intelligence</span>
-   <li id="invisible6" class="hide"><a><figure><img src="icon6.png"></figure></a></li><br>
+   <li id="invisible6" class="hide"><a onclick="openNav4multiple()"><figure><img src="icon6.png"></figure></a></li><br>
 </div>
         
 </ul>
