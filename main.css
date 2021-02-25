@@ -1,0 +1,770 @@
+.hide
+{
+  
+ display: none;
+
+
+}
+.show
+{
+
+  display:block;
+  
+   
+}
+
+
+
+#visible
+{
+	display: block;
+  position: absolute;
+  top: 20%;
+  left: 24.5%;
+  font-size: 25px;
+
+  cursor: pointer;
+}
+
+#mylist
+{
+  position: absolute;
+  background-color:white;
+  top:43%;
+  left: 13.1%;
+  font-size: 25px;
+ width: 165px;
+  text-align: center;
+}
+/*invisible incons*/
+#invisible
+{
+  position: absolute;
+  left: 150%;
+  top: 50%;
+
+}
+#invisible3
+{
+  position: absolute;
+  left: 150%;
+  top: -400%;
+
+}
+
+#invisible2
+{
+  position: absolute;
+  left: 148%;
+  top: 400%;
+
+}
+
+#invisible4
+{
+  position: absolute;
+  left: 319%;
+  top: 50%;
+
+}
+#invisible5
+{
+  position: absolute;
+  left: 275%;
+  top: -400%;
+
+}
+#invisible6
+{
+  position: absolute;
+  left: 275%;
+  top: 402%;
+
+}
+
+
+ul.nav {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  }
+
+li {
+  float: right;
+}
+
+
+/*my tooltipts*/
+
+/*tooltip1*/
+
+.tooltip {
+  position: absolute;
+  display: inline-block;
+  left: 150%;
+  top: -100%;
+  border-bottom: 1px dotted black;
+  cursor: pointer;
+
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  height: 50px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+top:-350%;
+  left: 50%;
+  margin-left: -130px;
+ 
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 100%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*tooltip1*/
+
+/*tooltip2*/
+
+.tooltip2 {
+  position: absolute;
+  display: inline-block;
+  left: 100%;
+  top: 1%;
+  border-bottom: 1px dotted black;
+  cursor: pointer;
+}
+
+.tooltip2 .tooltiptext2 {
+  visibility: hidden;
+  width: 120px;
+  height: 50px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+bottom: -60px;
+  left: 50%;
+  margin-left: -130px;
+ 
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip2 .tooltiptext2::after {
+  content: "";
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 100%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip2:hover .tooltiptext2 {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*tooltop2*/
+
+/*tooltop3*/
+.tooltip3 {
+  position: absolute;
+  display: inline-block;
+  left: 148%;
+  top: 100%;
+  border-bottom: 1px dotted black;
+  cursor: pointer;
+}
+
+.tooltip3 .tooltiptext3 {
+  visibility: hidden;
+  width: 120px;
+  height: 50px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+bottom: -180px;
+  left: 50%;
+  margin-left: -130px;
+ 
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip3 .tooltiptext3::after {
+  content: "";
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 100%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip3:hover .tooltiptext3 {
+  visibility: visible;
+  opacity: 1;
+}
+/*tooltop3*/
+
+/*tooltop4*/
+.tooltip4 {
+  position: absolute;
+  display: inline-block;
+  left: 334%;
+  top: 1%;
+  border-bottom: 1px dotted black;
+  cursor: pointer;
+}
+
+.tooltip4 .tooltiptext4 {
+  visibility: hidden;
+  width: 142px;
+  height: 50px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+bottom: -60px;
+  left: 50%;
+  margin-left: 100px;
+ 
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip4 .tooltiptext4::after {
+  content: "";
+  position: absolute;
+  text-align: center;
+  top: 25px;
+  right: 97%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip4:hover .tooltiptext4 {
+  visibility: visible;
+  opacity: 1;
+}
+/*tooltop4*/
+
+/*tooltop5*/
+.tooltip5 {
+  position: absolute;
+  display: inline-block;
+  left: 290%;
+  top: -100%;
+  border-bottom: 1px dotted black;
+  cursor: pointer;
+}
+
+.tooltip5 .tooltiptext5 {
+  visibility: hidden;
+  width: 142px;
+  height: 50px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+bottom: 60px;
+  left: 50%;
+  margin-left: 120px;
+ 
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip5 .tooltiptext5::after {
+  content: "";
+  position: absolute;
+  text-align: center;
+  top: 25px;
+  right: 97%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip5:hover .tooltiptext5 {
+  visibility: visible;
+  opacity: 1;
+}
+/*tooltop5*/
+
+/*tooltop6*/
+.tooltip6 {
+  position: absolute;
+  display: inline-block;
+ left: 290%;
+  top: 102%;
+  border-bottom: 1px dotted black;
+  cursor: pointer;
+}
+
+.tooltip6 .tooltiptext6 {
+  visibility: hidden;
+  width: 142px;
+  height: 50px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+bottom: -170px;
+  left: 50%;
+  margin-left: 110px;
+ 
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip6 .tooltiptext6::after {
+  content: "";
+  position: absolute;
+  text-align: center;
+  top: 25px;
+  right: 97%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip6:hover .tooltiptext6 {
+  visibility: visible;
+  opacity: 1;
+}
+/*tooltop6*/
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top:40%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+/*3*/
+.overlay3 {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  /** it was left: 0, now it opens from right **/
+  top: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content3 {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay3 a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay3 a:hover,
+.overlay3 a:focus {
+  color: #f1f1f1;
+}
+
+.overlay3 .closebtn3 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay3 a {
+    font-size: 20px
+  }
+  .overlay3 .closebtn3 {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+/*4*/
+
+.overlay4 {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content4 {
+  position: relative;
+  top:40%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay4 a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay4 a:hover, .overlay4 a:focus {
+  color: #f1f1f1;
+}
+
+.overlay4 .closebtn4 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay4 {overflow-y: auto;}
+  .overlay4 a {font-size: 20px}
+  .overlay4 .closebtn4 {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+/*5*/
+.overlay5 {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content5 {
+  position: relative;
+  top:40%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay5 a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay5 a:hover, .overlay5 a:focus {
+  color: #f1f1f1;
+}
+
+.overlay5 .closebtn5 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay5 {overflow-y: auto;}
+  .overlay5 a {font-size: 20px}
+  .overlay5 .closebtn5 {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+.overlay2 {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left:0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content2 {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay2 a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay2 a:hover, .overlay2 a:focus {
+  color: #f1f1f1;
+}
+
+.overlay2 .closebtn2 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay2 a {font-size: 20px}
+  .overlay2 .closebtn2 {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+
+
+
+
+.column {
+  
+  padding: 0;
+}
+.column:last-child {
+  
+}
+.column::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.column div {
+  position: relative;
+  float: left;
+  
+
+  padding: 0;
+}
+.column div:first-child {
+  margin-left: 0;
+}
+.column div span {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  z-index: -1;
+  display: block;
+
+  margin: 0;
+  padding: 0;
+  color: #444;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  opacity: 0;
+}
+figure {
+
+  margin: 0;
+  padding: 0;
+  background: none;
+  overflow: hidden;
+}
+
+
+/* Zoom Out #1 */
+.tooltip figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.tooltip figure:hover img {
+  -webkit-transform: scale(1);
+  transform: scale(0.6);
+}
+
+.tooltip2 figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.tooltip2 figure:hover img {
+  -webkit-transform: scale(1);
+  transform: scale(0.6);
+}
+
+.tooltip3 figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.tooltip3 figure:hover img {
+  -webkit-transform: scale(1);
+  transform: scale(0.6);
+}
+
+.tooltip4 figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.tooltip4 figure:hover img {
+  -webkit-transform: scale(1);
+  transform: scale(0.6);
+}
+
+.tooltip5 figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.tooltip5 figure:hover img {
+  -webkit-transform: scale(1);
+  transform: scale(0.6);
+}
+
+.tooltip6 figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.tooltip6 figure:hover img {
+  -webkit-transform: scale(1);
+  transform: scale(0.6);
+}
+
+
+
+
