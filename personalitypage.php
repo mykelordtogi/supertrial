@@ -12,7 +12,7 @@ h2 {
 }
 #wrapper {
   width: 1000px;
-  height: 1000px;
+  height: 1700px;
   margin: 0 auto;
   background:bisque;
   padding: 10px 15px;
@@ -58,82 +58,277 @@ a:visited{
 
 </head>
 <body>
+
+<div id="myinstructions">
+<h3><b>Instructions:</b> Read each statement carefully. Choose one of the three buttons for each statement indicating how well that statement describes you.</h3>
+
+<h4><b>Accurate:</b>Statement describes you exactly</h4>
+<h4><b>Neutral:</b>Statement describes you somewhat</h4>
+<h4><b>Inaccurate:</b>Statement does not describe you at all</h4>
+</div>
+
 <div id="wrapper">
   <h1>What kind of person are you?</h1>
   <p>Take this questionnaire to find out!</p>
   
   <form id="quiz">
     <!-- Question 1 -->
-    <h2>The end of the world is coming, if you can save only 1 animal, which one will you pick?</h2>
+    <h2>I make friends easily.</h2>
     <!-- Here are the choices for the first question. Each input tag must have the same name. For this question, the name is q1. -->
     <!-- The value is which answer the choice corresponds to. -->
     <label><input type="radio" name="q1" value="c1">
-      Rabit
-    </label><br />
+  Accurate
+    </label>
     <label><input type="radio" name="q1" value="c2">
-      Sheep
-    </label><br />
+Neutral
+    </label>
     <label><input type="radio" name="q1" value="c3">
-      Deer
+      Inaccurate
     </label><br />
-    <label><input type="radio" name="q1" value="c4">
-      Horse
-    </label><br />
+    
 
     <!-- Question 2 -->
-    <h2>If you had to be an animal which animal are you?</h2>
+    <h2>I have a vivid imagination.</h2>
     <!-- Here are the choices for the second question. Notice how each input tag has the same name (q2), but a different name than the previous question. -->
     <label><input type="radio" name="q2" value="c1">
-      Dog
-    </label><br />
+    Accurate
+    </label>
     <label><input type="radio" name="q2" value="c2">
-      Cat
-    </label><br />
+    Neutral
+    </label>
     <label><input type="radio" name="q2" value="c3">
-      Horse
+    Inaccurate
     </label><br />
-    <label><input type="radio" name="q2" value="c4">
-      Snake
-    </label><br />
+ 
     
     <!-- Question 3 -->
-    <h2>If you have the power to make one species disappear forever, which one will that be?</h2>
+    <h2>I worry about things.</h2>
     <!-- Choices for the third question -->
     <label><input type="radio" name="q3" value="c1">
-      Lion
-    </label><br />
+    Accurate
+    </label>
     <label><input type="radio" name="q3" value="c2">
-      Snake
-    </label><br />
+    Neutral
+    </label>
     <label><input type="radio" name="q3" value="c3">
-      Crocodile
+    Inaccurate
     </label><br />
-    <label><input type="radio" name="q3" value="c4">
-      Shark 
-    </label><br />
+  
     
     <!-- Question 4 -->
-    <h2>If one animal could speak, which one would it be?</h2>
+    <h2>I love large parties. </h2>
     <!-- Choices for the fourth question -->
     <label><input type="radio" name="q4" value="c1">
-      Sheep
-    </label><br />
+    Accurate
+    </label>
     <label><input type="radio" name="q4" value="c2">
-      Horse
-    </label><br />
+    Neutral
+    </label>
     <label><input type="radio" name="q4" value="c3">
-      Rabit
+    Inaccurate
     </label><br />
-    <label><input type="radio" name="q4" value="c4">
-      Bird
+
+    <h2>I believe in the importance of art. </h2>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q5" value="c1">
+    Accurate
+    </label>
+    <label><input type="radio" name="q5" value="c2">
+    Neutral
+    </label>
+    <label><input type="radio" name="q5" value="c3">
+    Inaccurate
     </label><br />
+
+    <h2>I get angry easily. </h2>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q6" value="c1">
+    Accurate
+    </label>
+    <label><input type="radio" name="q6" value="c2">
+    Neutral
+    </label>
+    <label><input type="radio" name="q6" value="c3">
+    Inaccurate
+    </label><br />
+
+    <h2>I take charge.</h2>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q7" value="c1">
+    Accurate
+    </label>
+    <label><input type="radio" name="q7" value="c2">
+    Neutral
+    </label>
+    <label><input type="radio" name="q7" value="c3">
+    Inaccurate
+    </label><br />
+
+    <h2>I experience my emotions intensely.</h2>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q8" value="c1">
+    Accurate
+    </label>
+    <label><input type="radio" name="q8" value="c2">
+    Neutral
+    </label>
+    <label><input type="radio" name="q8" value="c3">
+    Inaccurate
+    </label><br />
+
+    <h2>I often feel blue.</h2>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q9" value="c1">
+    Accurate
+    </label>
+    <label><input type="radio" name="q9" value="c2">
+    Neutral
+    </label>
+    <label><input type="radio" name="q9" value="c3">
+    Inaccurate
+    </label><br />
+
+    
+    <h2>I am always busy.</h2>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q10" value="c1">
+    Accurate
+    </label>
+    <label><input type="radio" name="q10" value="c2">
+    Neutral
+    </label>
+    <label><input type="radio" name="q10" value="c3">
+    Inaccurate
+    </label><br />
+
+    <h2>I prefer variety to routine.</h2>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q11" value="c1">
+    Accurate
+    </label>
+    <label><input type="radio" name="q11" value="c2">
+    Neutral
+    </label>
+    <label><input type="radio" name="q11" value="c3">
+    Inaccurate
+    </label><br />
+
+    <h2>I am easily intimidated.</h2>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q12" value="c1">
+    Accurate
+    </label>
+    <label><input type="radio" name="q12" value="c2">
+    Neutral
+    </label>
+    <label><input type="radio" name="q12" value="c3">
+    Inaccurate
+    </label><br />
+
+    <h2>I love excitement.</h2>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q13" value="c1">
+    Accurate
+    </label>
+    <label><input type="radio" name="q13" value="c2">
+    Neutral
+    </label>
+    <label><input type="radio" name="q13" value="c3">
+    Inaccurate
+    </label><br />
+
+    <h2>I like to solve complex problems. </h2>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q14" value="c1">
+    Accurate
+    </label>
+    <label><input type="radio" name="q14" value="c2">
+    Neutral
+    </label>
+    <label><input type="radio" name="q14" value="c3">
+    Inaccurate
+    </label><br />
+
+    <h2>I often eat too much. </h2>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q15" value="c1">
+    Accurate
+    </label>
+    <label><input type="radio" name="q15" value="c2">
+    Neutral
+    </label>
+    <label><input type="radio" name="q15" value="c3">
+    Inaccurate
+    </label><br />
+
+    <h2>I radiate joy.</h2>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q16" value="c1">
+    Accurate
+    </label>
+    <label><input type="radio" name="q16" value="c2">
+    Neutral
+    </label>
+    <label><input type="radio" name="q16" value="c3">
+    Inaccurate
+    </label><br />
+
+    <h2>I try to follow the rules. </h2>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q17" value="c1">
+    Accurate
+    </label>
+    <label><input type="radio" name="q17" value="c2">
+    Neutral
+    </label>
+    <label><input type="radio" name="q17" value="c3">
+    Inaccurate
+    </label><br />
+
+    <h2>I panic easily. </h2>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q18" value="c1">
+    Accurate
+    </label>
+    <label><input type="radio" name="q18" value="c2">
+    Neutral
+    </label>
+    <label><input type="radio" name="q18" value="c3">
+    Inaccurate
+    </label><br />
+
+    <h2>I trust others. </h2>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q19" value="c1">
+    Accurate
+    </label>
+    <label><input type="radio" name="q19" value="c2">
+    Neutral
+    </label>
+    <label><input type="radio" name="q19" value="c3">
+    Inaccurate
+    </label><br />
+
+    
+    <h2>I make people feel welcome.</h2>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q20" value="c1">
+    Accurate
+    </label>
+    <label><input type="radio" name="q20" value="c2">
+    Neutral
+    </label>
+    <label><input type="radio" name="q20" value="c3">
+    Inaccurate
+    </label><br />
+    
     
     
   </form>
 
 
   <button type="submit" id="submit" onclick="tabulateAnswers();">Submit Your Answers</button>
-  <button type="reset" id="reset" onclick="resetAnswer();"><a href="bwahaha.html">Reset</a></button>
+  <button type="reset" id="reset" onclick="resetAnswer();"><a href="personalitypage.php">Reset</a></button>
 
    <div id="answer">Your result will show up here.</div>
 
@@ -166,32 +361,27 @@ function tabulateAnswers() {
       if (choices[i].value == 'c3') {
         c3score = c3score + 1;
       }
-      if (choices[i].value == 'c4') {
-        c4score = c4score + 1;
-      }
+   
       // If you add more choices and outcomes, you must add another if statement below.
     }
   }
   
   // Find out which choice got the highest score.
   // If you add more choices and outcomes, you must add the variable here.
-  var maxscore = Math.max(c1score,c2score,c3score,c4score);
+  var maxscore = Math.max(c1score,c2score,c3score);
   
   // Display answer corresponding to that choice
   var answerbox = document.getElementById('answer');
 
 
   if (c1score == maxscore) { // If user chooses the first choice the most, this outcome will be displayed.
-    answerbox.innerHTML = "You are a person who is like cold as ice in the outside but warm in the inside. You are loyal and faithful, but arrogant and with authoritative behavior. You can know what other person is thinking even they didnt say a word.";
+    answerbox.innerHTML = "Others see you as fresh, lively, charming, amusing, practical, and always interesting; someone who's constantly in the center of attention, but sufficiently well-balanced not to let it go to their head. They also see you as kind, considerate, and understanding; someone who'll always cheer them up and help them out.";
   }
   if (c2score == maxscore) { // If user chooses the second choice the most, this outcome will be displayed.
-    answerbox.innerHTML = "You are an obedient and warm person. Stylish but emotional and moody. You love to talk about secrets, like no secrets kept in you.";
+    answerbox.innerHTML = "You are a down-to-earth sort of person who prefers real life over fantasy or abstract ideas. You tend to like things simple, clear and straightforward. A traditionalist at heart, you look to the past for guidance in most decisions. You spend your time living life, not analyzing it, and you tend to put your energy into projects that have a tangible result.";
   }
   if (c3score == maxscore) { // If user chooses the third choice the most, this outcome will be displayed.
-    answerbox.innerHTML = "Elegant and well-mannered. You are optimistive but sometimes ruthless to things. Being in a relationship makes you feel warm and always in love";
-  }
-  if (c4score == maxscore) { // If user chooses the fourth choice the most, this outcome will be displayed.
-    answerbox.innerHTML = "Unbriddle, free-spirited and carefree. You are a flexible person with insecurities. You are still looking for a long lasting relationship";
+    answerbox.innerHTML = "Others see you as sensible, cautious, careful & practical. They see you as clever, gifted, or talented, but modest. Not a person who makes friends too quickly or easily, but someone who's extremely loyal to friends you do make and who expects the same loyalty in return. Those who really get to know you realize it takes a lot to shake your trust in your friends, but equally that it takes you a long time to get over if that trust is ever broken.";
   }
   // If you add more choices, you must add another response below.
 }
