@@ -42,7 +42,7 @@
 <div id="myNav4" class="overlay4">
   <a href="javascript:void(0)" class="closebtn4" onclick="closeNav4()">&times;</a>
   <div class="overlay-content4">
-   <a href="multipleinttest.php">Take a test</a>
+   <a href="multipletrial.php">Take a test</a>
   </div>
 </div>
 
