@@ -39,8 +39,8 @@ h2{
 #maindiv
 { display: none;
     position: fixed;
-    bottom: 25px;
-    left: 750px;
+    bottom: 50px;
+    left: 850px;
 
     height: 520px;
     width: 430px;
@@ -385,8 +385,17 @@ h2{
 <h2>Total: <span id="score8">--.--</span></h2> 
 
 
-<button onclick="calcscore();">Click for reulst</button>
+<button onclick="calcscore();">Click for result</button>
 <button type="reset" id="reset"><a href="multipletrial.php">Reset</a></button>
+
+<div><img id="image1" style="position: absolute; display: none;" src="linguisticImage.png"></div>
+<div><img id="image2" style="position: absolute; display: none;" src="mathImage.png"></div>
+<div><img id="image3" style="position: absolute; display: none;" src="visualImage.png"></div>
+<div><img id="image4" style="position: absolute; display: none;" src="bodyImage.png"></div>
+<div><img id="image5" style="position: absolute; display: none;" src="musicalImage.png"></div>
+<div><img id="image6" style="position: absolute; display: none;" src="interImage.png"></div>
+<div><img id="image7" style="position: absolute; display: none;" src="intraImage.png"></div>
+<div><img id="image8" style="position: absolute; display: none;" src="natImage.png"></div>
 
 
 <style>
@@ -400,14 +409,14 @@ h2{
 #valuelabel2
 {
     position: absolute;
-    bottom: -23px;
+    bottom: -24px;
     left: -40px;
 }
 
 #valuelabel3
 {
     position: absolute;
-    bottom: -23px;
+    bottom: -24px;
     left: -40px;
 }
 
@@ -429,7 +438,7 @@ h2{
 {
     position: absolute;
     bottom: -12px;
-    left: -58px;
+    left: -62px;
     font-size: 12px;
     
 } 
@@ -438,7 +447,7 @@ h2{
 {
     position: absolute;
     bottom: -11px;
-    left: -120px;
+    left: -124px;
     font-size: 12px;
 } 
 
@@ -446,14 +455,14 @@ h2{
 {
     position: absolute;
     bottom: -11px;
-    left: -80px;
+    left: -84px;
     font-size: 12px;
 } 
 #multilabel4
 {
     position: absolute;
     bottom: -11px;
-    left: -99px;
+    left: -103px;
     font-size: 12px;
 } 
 
@@ -461,28 +470,28 @@ h2{
 {
     position: absolute;
     bottom: -11px;
-    left: -48px;
+    left: -52px;
     font-size: 12px;
 } 
 #multilabel6
 {
     position: absolute;
     bottom: -11px;
-    left: -74px;
+    left: -81px;
     font-size: 12px;
 } 
 #multilabel7
 {
     position: absolute;
     bottom: -11px;
-    left: -74px;
+    left: -81px;
     font-size: 12px;
 } 
 #multilabel8
 {
     position: absolute;
     bottom: -11px;
-    left: -56px;
+    left: -61px;
     font-size: 12px;
 } 
 
@@ -490,7 +499,7 @@ h2{
 
 
 <div id="maindiv">
-<div class="bar1 x"><p id="mult1">Linguistic:</p></div>
+<div class="bar1 x"></div>
 <div class="bar2 x"></div>
 <div class="bar3 x"></div>
 <div class="bar4 x"></div>
@@ -514,25 +523,28 @@ h2{
                 <div style="position:absolute;bottom: 500px;height: 2px;width: 20px;background-color: black; left: -12px;">
                     <p id="valuelabel5">100%</p></div>
 
-<div style="position:absolute;border: 2px solid chocolate;left:-120px;bottom: 200px;height: 15px; width: 15px; background-color: Thistle ;">
+<div style="position:absolute;border: 2px solid chocolate;left:-100px;bottom: 200px;height: 15px; width: 15px; background-color: Thistle ;">
     <p id="multilabel">Linguistic</p></div>
-<div style="position:absolute;border: 2px solid chocolate;left:-120px;bottom: 220px;height: 15px; width: 15px; background-color: Plum;">
+<div style="position:absolute;border: 2px solid chocolate;left:-100px;bottom: 220px;height: 15px; width: 15px; background-color: Plum;">
     <p id="multilabel2">Mathematical/Logical</p></div>
-<div style="position:absolute;border: 2px solid chocolate;left:-120px;bottom: 240px;height: 15px; width: 15px; background-color: Orchid;">
+<div style="position:absolute;border: 2px solid chocolate;left:-100px;bottom: 240px;height: 15px; width: 15px; background-color: Orchid;">
     <p id="multilabel3">Visual/Spatial</p></div>
-<div style="position:absolute;border: 2px solid chocolate;left:-120px;bottom: 260px;height: 15px; width: 15px; background-color: Violet;">
+<div style="position:absolute;border: 2px solid chocolate;left:-100px;bottom: 260px;height: 15px; width: 15px; background-color: Violet;">
     <p id="multilabel4">BodilyKinesthetic</p></div>
-<div style="position:absolute;border: 2px solid chocolate;left:-120px;bottom: 280px;height: 15px; width: 15px; background-color: Fuchsia;">
+<div style="position:absolute;border: 2px solid chocolate;left:-100px;bottom: 280px;height: 15px; width: 15px; background-color: Fuchsia;">
     <p id="multilabel5">Musical</p></div>
-<div style="position:absolute;border: 2px solid chocolate;left:-120px;bottom: 300px;height: 15px; width: 15px; background-color: mediumorchid;">
+<div style="position:absolute;border: 2px solid chocolate;left:-100px;bottom: 300px;height: 15px; width: 15px; background-color: mediumorchid;">
     <p id="multilabel6">Interpersonal</p></div>
-<div style="position:absolute;border: 2px solid chocolate;left:-120px;bottom: 320px;height: 15px; width: 15px; background-color: mediumslateblue;">
+<div style="position:absolute;border: 2px solid chocolate;left:-100px;bottom: 320px;height: 15px; width: 15px; background-color: mediumslateblue;">
     <p id="multilabel7">Intrapersonal</p></div>
-<div style="position:absolute;border: 2px solid chocolate;left:-120px;bottom: 340px;height: 15px; width: 15px; background-color: slateblue;">
+<div style="position:absolute;border: 2px solid chocolate;left:-100px;bottom: 340px;height: 15px; width: 15px; background-color: slateblue;">
     <p id="multilabel8">Naturalist</p></div>
 </div>
 
 <p id="demo2" style="position: fixed;top: 46%; left: 50%; font-size: 40px;font-weight: bold;">Your result Will show here.</p>
+
+
+
 
 	<script type="text/javascript">
  var score;
@@ -541,7 +553,8 @@ function calcscore()
 // open of my fucntion
 
 
- var answerbox = document.getElementById('answer');
+ 
+
   var score1 = 0;
   $("input[type=radio][data-score1]:checked").each(function(i, el) {
     score1 += +$(el).data("score1");
@@ -601,8 +614,105 @@ var sumInter = score6;
 var sumIntra = score7;
 var sumNat = score8;
 
+var answerbox = document.getElementById('dummybox');
+
+if (sumLing > sumMath && sumLing > sumVisual && sumLing > sumBody && sumLing > sumMusic && sumLing > sumInter && sumLing > sumIntra && sumLing > sumNat ) 
+{
+    var imageLing= document.getElementById("image1");
+
+    if (imageLing.style.display === "block") {
+        imageLing.style.display = "none";
+  } else {
+    imageLing.style.display = "block";
+  }
+ 
+}
+
+if (sumMath > sumLing && sumMath > sumVisual && sumMath > sumBody && sumMath > sumMusic && sumMath > sumInter && sumMath > sumIntra && sumMath > sumNat ) 
+{
+    var imageMath= document.getElementById("image2");
+
+    if (imageMath.style.display === "block") {
+        imageMath.style.display = "none";
+  } else {
+    imageMath.style.display = "block";
+  }
+ 
+}
+
+if (sumBody > sumLing && sumBody > sumMath && sumBody > sumVisual && sumBody > sumMusic && sumBody > sumInter && sumBody> sumIntra && sumBody > sumNat ) 
+{
+    var imageBody= document.getElementById("image4");
+
+    if (imageBody.style.display === "block") {
+        imageBody.style.display = "none";
+  } else {
+    imageBody.style.display = "block";
+  }
+ 
+}
+
+if (sumVisual > sumLing && sumVisual > sumMath && sumVisual > sumBody && sumVisual > sumMusic && sumVisual > sumInter && sumVisual > sumIntra && sumVisual > sumNat ) 
+{
+    var imageVisual= document.getElementById("image3");
+
+    if (imageVisual.style.display === "block") {
+        imageVisual.style.display = "none";
+  } else {
+    imageVisual.style.display = "block";
+  }
+ 
+}
+
+if (sumMusic > sumLing && sumMusic > sumMath && sumMusic > sumBody && sumMusic > sumVisual && sumMusic > sumInter && sumMusic > sumIntra && sumMusic> sumNat ) 
+{
+    var imageMusic = document.getElementById("image5");
+
+    if (imageMusic.style.display === "block") {
+        imageMusic.style.display = "none";
+  } else {
+    imageMusic.style.display = "block";
+  }
+ 
+}
+
+if (sumInter > sumLing && sumInter > sumMath && sumInter > sumBody && sumInter > sumVisual && sumInter > sumMusic && sumInter > sumIntra && sumInter> sumNat ) 
+{
+    var imageInter = document.getElementById("image6");
+
+    if (imageInter .style.display === "block") {
+        imageInter .style.display = "none";
+  } else {
+    imageInter .style.display = "block";
+  }
+ 
+}
 
 
+if (sumIntra > sumLing && sumIntra > sumMath && sumIntra > sumBody && sumIntra > sumVisual && sumIntra > sumMusic && sumIntra > sumInter && sumIntra > sumNat ) 
+{
+    var imageIntra = document.getElementById("image7");
+
+    if (imageIntra  .style.display === "block") {
+        imageIntra  .style.display = "none";
+  } else {
+    imageIntra  .style.display = "block";
+  }
+ 
+}
+
+
+if (sumNat > sumLing && sumNat > sumMath && sumNat > sumBody && sumNat > sumVisual && sumNat > sumMusic && sumNat > sumInter && sumNat > sumIntra ) 
+{
+    var imageNat = document.getElementById("image8");
+
+    if (imageNat  .style.display === "block") {
+        imageNat  .style.display = "none";
+  } else {
+    imageNat  .style.display = "block";
+  }
+ 
+}
 
  // query css selectors flex-direction: column;  justify-content: flex-end; display: flex;
  document.querySelector(".bar1").style.cssText = " width: 25px; background-color: Thistle ; border: 4px solid Chocolate ; border-bottom:none;";
@@ -654,6 +764,22 @@ if (labelbig.style.display === "none") {
     labelbig.style.display = "block";
   } else {
     labelbig.style.display = "none";
+  }
+
+  var myquestionsEffect = document.getElementById("myquestions");
+
+if (myquestionsEffect.style.display === "none") {
+    myquestionsEffect.style.display = "block";
+  } else {
+    myquestionsEffect.style.display = "none";
+  }
+
+  var myintructionsEffect = document.getElementById("myinstructions");
+
+  if (myintructionsEffect.style.display === "none") {
+    myintructionsEffect.style.display = "block";
+  } else {
+    myintructionsEffect.style.display = "none";
   }
 
 }
