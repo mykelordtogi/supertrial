@@ -1,6 +1,7 @@
  body {
   
- background-color: Gainsboro;
+ background-color:gainsboro;
+ font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -20,14 +21,14 @@
 }
 .menu-toggler:hover + label,
 .menu-toggler:hover + label:before,
-.menu-toggler:hover + label:after,{
-  background: white;
+.menu-toggler:hover + label:after{
+  background: gainsboro;
 }
 .menu-toggler:checked + label {
   background: transparent;
 }
 .menu-toggler:checked + label:before,
-.menu-toggler:checked + label:after,{
+.menu-toggler:checked + label:after{
   top:0;
   width:40px;
   transform-origin: 50% 50%;
@@ -341,7 +342,7 @@ transform: rotate(180deg) translateX(150px) translateY(-25px);
 background-color: black;
     color: white;
  
-transform: rotate(120deg) translateX(180px) translateY(15px);
+transform: rotate(120deg) translateX(135px) translateY(-10px);
     position: absolute;
     z-index: 1000;
 }
@@ -421,7 +422,7 @@ transform: rotate(60deg) translateX(-120px) translateY(40px);
 
 @media screen and (max-height: 450px) {
   .overlay {overflow-y: auto;}
-  .overlay a {font-size: 20px}
+  .overlay a {font-size: 20px;}
   .overlay .closebtn {
   font-size: 40px;
   top: 15px;
@@ -478,7 +479,7 @@ transform: rotate(60deg) translateX(-120px) translateY(40px);
 
 @media screen and (max-height: 450px) {
   .overlay2 {overflow-y: auto;}
-  .overlay2 a {font-size: 20px}
+  .overlay2 a {font-size: 20px;}
   .overlay2 .closebtn2 {
   font-size: 40px;
   top: 15px;
@@ -534,7 +535,7 @@ transform: rotate(60deg) translateX(-120px) translateY(40px);
 }
 
 @media screen and (max-height: 450px) {
-  .overlay3 a {font-size: 20px}
+  .overlay3 a {font-size: 20px;}
   .overlay3 .closebtn3 {
   font-size: 40px;
   top: 15px;
@@ -592,7 +593,7 @@ transform: rotate(60deg) translateX(-120px) translateY(40px);
 
 @media screen and (max-height: 450px) {
   .overlay4 a {
-    font-size: 20px
+    font-size: 20px;
   }
   .overlay4 .closebtn4 {
     font-size: 40px;
@@ -649,7 +650,7 @@ transform: rotate(60deg) translateX(-120px) translateY(40px);
 
 @media screen and (max-height: 450px) {
   .overlay5 {overflow-y: auto;}
-  .overlay5 a {font-size: 20px}
+  .overlay5 a {font-size: 20px;}
   .overlay5 .closebtn5 {
   font-size: 40px;
   top: 15px;
@@ -704,7 +705,7 @@ transform: rotate(60deg) translateX(-120px) translateY(40px);
 
 @media screen and (max-height: 450px) {
   .overlay6 {overflow-y: auto;}
-  .overlay6 a {font-size: 20px}
+  .overlay6 a {font-size: 20px;}
   .overlay6 .closebtn6 {
   font-size: 40px;
   top: 15px;
@@ -712,3 +713,31 @@ transform: rotate(60deg) translateX(-120px) translateY(40px);
   }
 }
 /*my curtainmenu 6*/
+
+/*my media queries*/
+
+@media(min-width:410px) and (min-height: 800px)
+{
+.menu-item #icon1
+{
+position:absolute;
+left: 50px;
+}
+.menu-item #icon4
+{
+position:absolute;
+left: 50px;
+}
+#silman
+{
+ display: none;
+}
+
+#myman
+{
+  position:absolute;
+  display: inline-block;
+}
+
+
+}
