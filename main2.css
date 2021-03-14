@@ -716,27 +716,17 @@ transform: rotate(60deg) translateX(-120px) translateY(40px);
 
 /*my media queries*/
 
-@media(min-width:410px) and (min-height: 800px)
+@media(min-width:360px) and (min-height: 740px)
 {
-.menu-item #icon1
-{
-position:absolute;
-left: 50px;
-}
-.menu-item #icon4
+.menu-item #icon1,#icon2,#icon3,#icon4, #icon5, #icon6
 {
 position:absolute;
-left: 50px;
+left: 80px;
 }
+
 #silman
 {
  display: none;
-}
-
-#myman
-{
-  position:absolute;
-  display: inline-block;
 }
 
 
