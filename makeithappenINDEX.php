@@ -66,7 +66,7 @@
 
 <nav class="menu">
   <input checked="checked" class="menu-toggler" type="checkbox">
-  <label for="menu-toggler"> <img  src="standing.png" style="position: absolute; left: 400px; top: 25%; height: 300px;"></label>
+  <label for="menu-toggler"> <img id="silman" src="standing.png" style="position: absolute; left: 400px; top: 25%; height: 300px;"></label>
   <ul>
 
 
@@ -93,8 +93,8 @@
     </li>
 
     <li class="menu-item">
-      <span class="tooltip5"><b>Competencies and Skills</b></span>
-      <a id="icon5" class ="far fa-gem" onclick="openNav5()"></a>
+      <span class="tooltip5"><b>Games</b></span>
+      <a id="icon5" class ="fas fa-gamepad" onclick="openNav5()"></a>
     </li>
 
     <li class="menu-item">
@@ -103,6 +103,8 @@
     </li>
   </ul>
 </nav>
+
+<img id="myman" src="standing.png" style="width: 360px; position: absolute; height: 250px; left: 26px; top: 280px; display: none;"></img>
 
 
 </body>
