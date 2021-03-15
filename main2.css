@@ -728,4 +728,15 @@ left: 80px;
 {
  display: none;
 }
+
+body{
+  background-image: url("standingMobile.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-position-x: 130px;
+  background-position-y: 130px;
+  
+}
+
 }
