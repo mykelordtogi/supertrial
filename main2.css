@@ -716,7 +716,7 @@ transform: rotate(60deg) translateX(-120px) translateY(40px);
 
 /*my media queries*/
 
-@media(min-width:414px) and (min-height: 722px),(min-width:360px) and (min-height: 568px)
+@media(min-width:300px) and (max-width: 800px)
 {
 .menu-item #icon1,#icon2,#icon3,#icon4, #icon5, #icon6
 {
@@ -728,6 +728,4 @@ left: 80px;
 {
  display: none;
 }
-
-
 }
