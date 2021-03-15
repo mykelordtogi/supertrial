@@ -16,6 +16,8 @@
 
 </head>
 
+
+
 <body>
 
 <div id="myNav" class="overlay">
@@ -56,7 +58,7 @@
 <div id="myNav6" class="overlay6">
   <a href="javascript:void(0)" class="closebtn6" onclick="closeNav6()">&times;</a>
   <div class="overlay-content6">
-   <a href="personalitypage.php">Take a test</a>
+   <a href="indexDrawingApp.php">Do some Art</a>
   </div>
 </div>
 
@@ -104,7 +106,6 @@
   </ul>
 </nav>
 
-<img id="myman" src="standing.png" style="width: 360px; position: absolute; height: 250px; left: 26px; top: 280px; display: none;"></img>
 
 
 </body>
