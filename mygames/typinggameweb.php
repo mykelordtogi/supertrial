@@ -195,7 +195,7 @@ button:active {
 
 	<div class="wrapper">
 		<h1 style="color: black;"> </h1>
-		<p style="position: absolute;top: 20%;left: 10%;">Type and finish the whole sentence as you can until time runs out!<br><b>Get 25 points or more to go to the next page</b>.</p>
+		<p style="position: absolute;top: 20%;left: 1%;">Type and finish the whole sentence as you can until time runs out!<br><b>Get 25 points or more to go to the next page</b>.</p>
 		<button style="color: black;position: absolute;top: 80%;left: 38%;">START</button>
 		<div class="outerWrap">
 			<div class="scoreWrap">
@@ -267,7 +267,7 @@ button:active {
 
   	function random() {
   		words.innerHTML = "";
-  		var random = Math.floor(Math.random() * (101 - 0 + 1)) + 0;
+  		var random = Math.floor(Math.random() * (101 - 1 + 1)) + 0;
   		var wordArray = list[random].split("");
   		for (var i = 0; i < wordArray.length; i++) { //building the words with spans around the letters 1943
   			var span = document.createElement("span");
