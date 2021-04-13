@@ -3,9 +3,31 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-		<title>
-			
-		</title>
+		
+		<meta content="" name="description">
+
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="toknow.png" rel="icon">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+		
+
+
 	</head>
 
 <style type="text/css">
@@ -79,6 +101,22 @@ canvas{
 
 
 	<body>
+
+<header id="header" class="header fixed-top" style="top: 20px; left: -170px;">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="makeithappenINDEX.php" class="logo d-flex align-items-center">
+        <img src="toknow.png" alt="">
+        <span>GnothiSeauton</span>
+      </a>
+
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
 		<div class="field">
 			<canvas id="canvas"></canvas>
 			<div class="tools">
