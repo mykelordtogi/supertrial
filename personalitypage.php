@@ -1,3 +1,9 @@
+<?php
+
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,19 +11,23 @@
 
 <style type="text/css">body {
   font-family: sans-serif;
-  background: white;
+
+  background-image: url("assets/img/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
 }
 h2 {
   margin: 5px 0;
 }
 #wrapper {
   width: 1000px;
-  height: 1700px;
+  height: 2000px;
   margin: 0 auto;
   background:bisque;
   padding: 10px 15px;
   border-radius: 10px;
-  border: 4px solid black;
+  border: 4px solid aliceblue;
 }
 input {
   margin: 5px 10px;
@@ -32,11 +42,14 @@ button {
   border-bottom: 3px solid #333;
 }
 #submit {
-  background: green;
+
+  position: relative;
+  top: 20px;
 }
 #reset {
-  background: red;
-
+ 
+  position: relative;
+  top: 20px;
 }
 
 a
@@ -44,6 +57,7 @@ a
 
   text-decoration: none;
 }
+
 a:visited{
 
   color: white;
@@ -53,19 +67,75 @@ a:visited{
 #answer {
   border: 1px dashed #ccc;
   background: aquamarine;
+ position: relative;
+ top: 50px;
   padding: 100px;
 }</style>
+<meta content="" name="description">
+
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="toknow.png" rel="icon">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
 <body>
+<header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-<div id="myinstructions">
-<h3><b>Instructions:</b> Read each statement carefully. Choose one of the three buttons for each statement indicating how well that statement describes you.</h3>
+      <a href="makeithappenINDEX.php" class="logo d-flex align-items-center">
+        <img src="toknow.png" alt="">
+        <span>GnothiSeauton</span>
+      </a>
 
-<h4><b>Accurate:</b>Statement describes you exactly</h4>
-<h4><b>Neutral:</b>Statement describes you somewhat</h4>
-<h4><b>Inaccurate:</b>Statement does not describe you at all</h4>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+ <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up"></h1>
+          <h2 data-aos="fade-up" data-aos-delay="400"></h2>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+                    <div id="myinstructions">
+<h3><b style="color: dodgerblue;">Instructions:</b> Read each statement carefully.<br> Choose one of the three buttons for each statement indicating how well that statement describes you.</h3>
+<br>
+<h4><b style="color: mediumseagreen;">Accurate:</b> Statement describes you exactly</h4>
+<h4><b style="color: sandybrown;">Neutral:</b> Statement describes you somewhat</h4>
+<h4><b style="color: indianred;">Inaccurate:</b> Statement does not describe you at all</h4>
 </div>
+            </div>
+          </div>
+        </div>
+    <!--heeeeeeerrrrrrrrrrreeeeeeeeeeeee-->
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+
 
 <div id="wrapper">
   <h1>What kind of person are you?</h1>
@@ -327,8 +397,8 @@ Neutral
   </form>
 
 
-  <button type="submit" id="submit" onclick="tabulateAnswers();">Submit Your Answers</button>
-  <button type="reset" id="reset" onclick="resetAnswer();"><a href="personalitypage.php">Reset</a></button>
+  <button type="submit"  class="btn btn-success" id="submit" onclick="tabulateAnswers();">Submit Your Answers</button>
+  <button type="reset" class="btn btn-danger" id="reset" onclick="resetAnswer();"><a href="personalitypage.php">Reset</a></button>
 
    <div id="answer">Your result will show up here.</div>
 
@@ -393,6 +463,18 @@ function resetAnswer() {
 }
 
 </script>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 </html>
