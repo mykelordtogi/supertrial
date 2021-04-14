@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PUZZLE GAME</title>
+	<style>
+		
+		body {
+			background-image: url(relaxpic.jpg);
+		}
+		h1 {
+			text-align: center;
+			color: #1E90FF;
+		}
+		h2 {
+			text-align: center;
+			color: #1E90FF;
+		}
+		#box {
+			background-color: white;
+  			width: 900px;
+  			height: 330px;
+  			border: 15px solid green;
+  			padding: 30px;
+  			margin: auto;
+		}
+		div.emoji {
+			border: 1px solid black;
+		}
+		div.emoji:hover {
+			border: 1px solid red;
+		}
+		div.emoji img {
+			width: 100%;
+			height: auto;
+		}
+		div.desc {
+  			padding: 15px;
+  			text-align: center;
+		}
+		.responsive {
+  			padding: 0 6px;
+  			margin: 30px;
+  			float: left;
+  			width: 24.99999%;
+		}
+	</style>
+
+
+</head>
+<body>
+
+	<h1>Let's try to play a puzzle!</h1>
+	<h2>Out from the three emoji puzzles, click one that you want to solve.</h2>
+
+	<div id="box">
+		<div class="responsive">
+  			<div class="emoji">
+    			<a target="_self" href="happypuzzle.html">
+      				<img src="puzzle/happy.jpg" width="200" height="200">
+    			</a>
+    			<div class="desc">Happy Emoji Puzzle</div>
+  			</div>
+		</div>
+
+		<div class="responsive">
+  			<div class="emoji">
+    			<a target="_self" href="sadpuzzle.html">
+      				<img src="puzzle/sad.jpg" width="200" height="200">
+    			</a>
+    			<div class="desc">Sad Emoji Puzzle</div>
+  			</div>
+		</div>
+
+		<div class="responsive">
+  			<div class="emoji">
+    			<a target="_self" href="angrypuzzle.html">
+      				<img src="puzzle/angry.jpg" width="200" height="200">
+    			</a>
+    			<div class="desc">Angry Emoji Puzzle</div>
+  			</div>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<style type="text/css">
+	
+	.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  /** it was left: 0, now it opens from right **/
+  top: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+</style>
+
+<body>
+
+
+<div id="myNav" class="overlay">
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+
+</div>
+
+<span onclick="openNav()">open</span>
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+	
+	function openNav() {
+  document.getElementById("myNav").style.width = "25%"; /** from 100% to 25% **/
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0";
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+I make friends easily.    
+I have a vivid imagination.    
+I worry about things.    
+I love large parties.    
+I believe in the importance of art.    
+I get angry easily.    
+I take charge.    
+I experience my emotions intensely.    
+I often feel blue.    
+I am always busy.    
+I prefer variety to routine.    
+I am easily intimidated.    
+I love excitement.    
+I like to solve complex problems.    
+I often eat too much.    
+I radiate joy.    
+I tend to vote for liberal political candidates.    
+I panic easily.    
+I trust others.    
+I would never cheat on my taxes.    
+I make people feel welcome.    
+I am easy to satisfy.    
+I dislike being the center of attention.    
+I sympathize with the homeless.    
+I complete tasks successfully.    
+I like order.    
+I try to follow the rules.    
+I go straight for the goal.    
+I get chores done right away.    
+I avoid mistakes.    
+I fear for the worst.    
+I get irritated easily.    
+I dislike myself.    
+I am afraid that I will do the wrong thing.    
+I don't know why I do some of the things I do.    
+I become overwhelmed by events.    
+I warm up quickly to others.    
+I talk to a lot of different people at parties.    
+I try to lead others.    
+I am always on the go.    
+I seek adventure.    
+I have a lot of fun.    
+I enjoy wild flights of fantasy.    
+I like music.    
+I feel others' emotions.    
+I like to visit new places.    
+I love to read challenging material.    
+I believe that there is no absolute right and wrong.    
+I believe that others have good intentions.    
+I stick to the rules.    
+I anticipate the needs of others.    
+I can't stand confrontations.    
+I dislike talking about myself.    
+I feel sympathy for those who are worse off than myself.    
+I excel in what I do.    
+I like to tidy up.    
+I keep my promises.    
+I work hard.    
+I am always prepared.    
+I choose my words with care.    
+I am afraid of many things.    
+I get upset easily.    
+I am often down in the dumps.    
+I find it difficult to approach others.    
+I do things I later regret.    
+I feel that I'm unable to deal with things.    
+I feel comfortable around people.    
+I enjoy being part of a group.    
+I can talk others into doing things.    
+I do a lot in my spare time.    
+I love action.    
+I express childlike joy.    
+I love to daydream.    
+I see beauty in things that others might not notice.    
+I am passionate about causes.    
+I am interested in many things.    
+I have a rich vocabulary.    
+I believe that criminals should receive help rather than punishment.    
+I trust what people say.    
+I use flattery to get ahead.    
+I love to help others.    
+I hate to seem pushy.    
+I consider myself an average person.
+
+<div><img id="image2" style="position: absolute; display: none;" src="mathImage.png"></div>
+<div><img id="image3" style="position: absolute; display: none;" src="visualImage.png"></div>
+<div><img id="image4" style="position: absolute; display: none;" src="bodyImage.png"></div>
+<div><img id="image5" style="position: absolute; display: none;" src="musicalImage.png"></div>
+<div><img id="image6" style="position: absolute; display: none;" src="interImage.png"></div>
+<div><img id="image7" style="position: absolute; display: none;" src="intraImage.png"></div>
+<div><img id="image8" style="position: absolute; display: none;" src="natImage.png"></div>
+
+<img id="myman" src="standing.png" style="width: 360px; position: absolute; height: 250px; left: 26px; top: 280px; display: none;"></img>
