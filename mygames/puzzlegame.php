@@ -122,7 +122,7 @@
 	<div id="box">
 		<div class="responsive">
   			<div class="emoji">
-    			<a target="_self" href="happypuzzle.html">
+    			<a target="_self" href="happypuzzle.php">
       				<img src="puzzle/happy.jpg" width="200" height="200">
     			</a>
     			<div class="desc">Happy Emoji Puzzle</div>
@@ -131,7 +131,7 @@
 
 		<div class="responsive">
   			<div class="emoji">
-    			<a target="_self" href="sadpuzzle.html">
+    			<a target="_self" href="sadpuzzle.php">
       				<img src="puzzle/sad.jpg" width="200" height="200">
     			</a>
     			<div class="desc">Sad Emoji Puzzle</div>
@@ -140,7 +140,7 @@
 
 		<div class="responsive">
   			<div class="emoji">
-    			<a target="_self" href="angrypuzzle.html">
+    			<a target="_self" href="angrypuzzle.php">
       				<img src="puzzle/angry.jpg" width="200" height="200">
     			</a>
     			<div class="desc">Angry Emoji Puzzle</div>
