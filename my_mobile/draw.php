@@ -9,7 +9,7 @@
   padding:5px;
   margin:5px;
   border-radius:10px;
-  bottom:0;
+  bottom:650px;
 }
 #colorButton {
   transition: .1s linear;
