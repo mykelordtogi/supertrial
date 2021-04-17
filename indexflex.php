@@ -62,11 +62,11 @@
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
           <h1 data-aos="fade-up">We offer modern solutions for growing yourself</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">Knowing others is widom, knowing yourself is enlightenment<br><b> - Lao Tzu</b></h2>
+          <h2 data-aos="fade-up" data-aos-delay="400">Knowing others is wisdom, knowing yourself is enlightenment<br><b> - Lao Tzu</b></h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
-              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                <span>Get Started and Navigate through the silhouette</span>
+              <a class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span> Navigate through the silhouette</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
