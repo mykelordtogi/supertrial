@@ -844,7 +844,7 @@ transform: rotate(60deg) translateX(164px) translateY(-40px);
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
-   <a href="personalitypage.php">Take a test</a>
+   <a href="iqtestpage.php">Take a test</a>
   </div>
 </div>
 
@@ -879,7 +879,7 @@ transform: rotate(60deg) translateX(164px) translateY(-40px);
 <div id="myNav6" class="overlay6">
   <a href="javascript:void(0)" class="closebtn6" onclick="closeNav6()">&times;</a>
   <div class="overlay-content6">
-   <a href="indexDrawingApp.php">Do some Art</a>
+   <a href="draw.php">Do some Art</a>
   </div>
 </div>
 
