@@ -797,7 +797,7 @@ transform: rotate(60deg) translateX(120px) translateY(40px);
 <div id="myNav3" class="overlay3">
   <a href="javascript:void(0)" class="closebtn3" onclick="closeNav3()">&times;</a>
   <div class="overlay-content3">
-   <a href="personalitypage.php">Take a test</a>
+   <a href="aboutus.php">Take a test</a>
   </div>
 </div>
 
