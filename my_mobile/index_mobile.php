@@ -872,7 +872,7 @@ transform: rotate(60deg) translateX(164px) translateY(-40px);
 <div id="myNav5" class="overlay5">
   <a href="javascript:void(0)" class="closebtn5" onclick="closeNav5()">&times;</a>
   <div class="overlay-content5">
-   <a href="gamepage.php">Play a game</a>
+   <a href="notavailable.php">Play a game</a>
   </div>
 </div>
 
