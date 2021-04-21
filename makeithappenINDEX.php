@@ -797,7 +797,7 @@ transform: rotate(60deg) translateX(120px) translateY(40px);
 <div id="myNav3" class="overlay3">
   <a href="javascript:void(0)" class="closebtn3" onclick="closeNav3()">&times;</a>
   <div class="overlay-content3">
-   <a href="aboutus.php">Take a test</a>
+   <a href="aboutus.php">About Us</a>
   </div>
 </div>
 
@@ -834,7 +834,7 @@ transform: rotate(60deg) translateX(120px) translateY(40px);
 
  
     <li class="menu-item">
-      <span class="tooltip1"><b>Career Path</b></span>
+      <span class="tooltip1"><b>About Us</b></span>
         <a id="icon1" class="fas fa-glasses" onclick="openNav3()"></a>
     </li>
 
