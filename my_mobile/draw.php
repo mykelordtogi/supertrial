@@ -1,3 +1,33 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draw</title>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+
+<meta content="" name="description">
+
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="toknow.png" rel="icon">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
 <style type="text/css">
   body{
   margin:0;
@@ -9,7 +39,9 @@
   padding:5px;
   margin:5px;
   border-radius:10px;
-  bottom:650px;
+  bottom:480px;
+  width: 63px;
+  height: 320px;
 }
 #colorButton {
   transition: .1s linear;
@@ -67,6 +99,25 @@
 
 <META name="viewport" content="initial-scale=0.66, user-scalable=no">
 <body>
+
+<header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index_mobile.php" class="logo d-flex align-items-center">
+        <img src="toknow.png" alt="">
+        <span>GnothiSeauton</span>
+      </a>
+
+      
+
+    </div>
+  </header><!-- End Header -->
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
   <div id="colorButtonBox">
     <div id="colorButton" class="black" onclick='changeColorAndSize("black",10)'></div>
     <div id="colorButton" class="red" onclick="changeColorAndSize('red',10)"></div>
@@ -113,6 +164,9 @@ window.addEventListener("load", () => {
     if (!painting) {
       return;
     }
+
+
+
     
     e.preventDefault();
     ctx.lineWidth = strokeSize;
@@ -147,4 +201,7 @@ window.addEventListener("load", () => {
 });
 
 </script>
+
+
+
 </body>
