@@ -76,11 +76,11 @@
 </style>
 
 <body>
-	<img id="thumb1" src="thumbnail.png">
+	<img id="thumb1" src="thumbnail.PNG">
 	<a id="link1" href="mygames/typinggameweb.php">Typing game</a>
 	
 	<br>
-	<img id="thumb2" src="thumbnail2.png">
+	<img id="thumb2" src="thumbnail2.PNG">
 	<a id="link2" href="mygames/puzzlegame.php">Puzzle game</a>
 	
 </body>
