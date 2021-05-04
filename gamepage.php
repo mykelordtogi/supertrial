@@ -63,14 +63,14 @@
     {
     	position: absolute;
     	top: 380px;
-    	left: 380px;
+    	left: 31%;
     }
 
         #link2
     {
     	position: absolute;
     	top: 380px;
-    	left: 700px;
+    	left: 56%;
     }
 
 </style>
