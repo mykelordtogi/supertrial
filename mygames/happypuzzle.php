@@ -40,7 +40,7 @@ body {
 
 button {
    border: none;
-  background-color: Aqua;
+  background-color: gray;
   box-shadow: 0px 5px 0px 0px #CE4646;
   outline: none;
   border-radius: 5px;
