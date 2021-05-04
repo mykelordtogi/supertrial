@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>GnothiSeauton - Personality Page</title>
 
 <style type="text/css">body {
   font-family: sans-serif;
