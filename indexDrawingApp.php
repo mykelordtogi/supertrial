@@ -7,7 +7,8 @@
 		<meta content="" name="description">
 
   <meta content="" name="keywords">
-
+		<title>GnothiSeauton - Psychological Drawing</title>
+		
   <!-- Favicons -->
   <link href="toknow.png" rel="icon">
 
