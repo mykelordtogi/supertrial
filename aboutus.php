@@ -160,62 +160,50 @@
       </div>
     </div>
 
-    <div class="row text-center">
-      <!-- Team item-->
-      <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="lolita.png" alt="" width="100" style="height: 100px;" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Lolita Canceller</h5><span class="small text-uppercase text-muted">BSIT - III</span>
-          <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
+   <div class="row text-center">
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="lolita.png" alt="" width="100" style="height: 100px;" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0">Lolita Canceller</h5><span class="small text-uppercase text-muted">BSIT - III</span>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item"><a href="https://www.facebook.com/partzkie.lisondra" class="social-link"><img style="height: 30px; width:30px;" src="fblogo2.png"></a>
+            </ul>
+          </div>
         </div>
-      </div>
-      <!-- End-->
+        <!-- End-->
 
-      <!-- Team item-->
- <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="mycris.png" alt="" width="100" style="height: 100px;" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Maricris Lutero</h5><span class="small text-uppercase text-muted">BSIT - III</span>
-          <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
+        <!-- Team item-->
+   <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="mycris.png" alt="" width="100" style="height: 100px;" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0">Maricris Lutero</h5><span class="small text-uppercase text-muted">BSIT - III</span>
+            <ul class="social mb-0 list-inline mt-3">
+          <li class="list-inline-item"><a href="https://www.facebook.com/maricris.lutero.75" class="social-link"><img style="height: 30px; width:30px;" src="fblogo2.png"></a>
+            </ul>
+          </div>
         </div>
-      </div>
-      <!-- End-->
+        <!-- End-->
 
-      <!-- Team item-->
-      <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="myke.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Mykelord Igot</h5><span class="small text-uppercase text-muted">BSIT - III</span>
-          <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="myke.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0">Mykelord Igot</h5><span class="small text-uppercase text-muted">BSIT - III</span>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item"><a href="https://www.facebook.com/mykelord.togi" class="social-link"><img style="height: 30px; width:30px;" src="fblogo2.png"></a>
+            </ul>
+          </div>
         </div>
-      </div>
-      <!-- End-->
+        <!-- End-->
 
-      <!-- Team item-->
-      <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="wel2.png" alt="" width="100" style="height: 100px;" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Noel Novicio</h5><span class="small text-uppercase text-muted">BSIT - III </span>
-          <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="wel2.png" alt="" width="100" style="height: 100px;" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0">Noel Novicio</h5><span class="small text-uppercase text-muted">BSIT - III </span>
+            <ul class="social mb-0 list-inline mt-3">
+             <li class="list-inline-item"><a href="https://www.facebook.com/wel.novecio" class="social-link"><img style="height: 30px; width:30px;" src="fblogo2.png"></a>
+            </ul>
+          </div>
         </div>
-      </div>
-      <!-- End-->
+        <!-- End-->
     </div>
   </div>
 </div>
