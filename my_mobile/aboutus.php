@@ -160,62 +160,62 @@
       </div>
     </div>
 
-    <div class="row text-center">
-      <!-- Team item-->
-      <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Lolita Canceller</h5><span class="small text-uppercase text-muted">BSIT - III</span>
-          <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
+   <div class="row text-center">
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="lolita.png" alt="" width="100" style="height: 100px;" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0">Lolita Canceller</h5><span class="small text-uppercase text-muted">BSIT - III</span>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <!-- End-->
+        <!-- End-->
 
-      <!-- Team item-->
- <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Maricris Lutero</h5><span class="small text-uppercase text-muted">BSIT - III</span>
-          <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
+        <!-- Team item-->
+   <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="mycris.png" alt="" width="100" style="height: 100px;" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0">Maricris Lutero</h5><span class="small text-uppercase text-muted">BSIT - III</span>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <!-- End-->
+        <!-- End-->
 
-      <!-- Team item-->
-      <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834133/avatar-2_f8dowd.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Mykelord Igot</h5><span class="small text-uppercase text-muted">BSIT - III</span>
-          <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="myke.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0">Mykelord Igot</h5><span class="small text-uppercase text-muted">BSIT - III</span>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <!-- End-->
+        <!-- End-->
 
-      <!-- Team item-->
-      <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834133/avatar-1_s02nlg.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Noel Novicio</h5><span class="small text-uppercase text-muted">BSIT - III </span>
-          <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="wel2.png" alt="" width="100" style="height: 100px;" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0">Noel Novicio</h5><span class="small text-uppercase text-muted">BSIT - III </span>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <!-- End-->
+        <!-- End-->
 
     </div>
   </div>
