@@ -70,7 +70,13 @@ a:visited{
  position: relative;
  top: 50px;
   padding: 100px;
-}</style>
+}
+		#reset a:visited {
+  color: black;
+
+}
+	
+	</style>
 <meta content="" name="description">
 
   <meta content="" name="keywords">
