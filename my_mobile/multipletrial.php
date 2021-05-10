@@ -131,6 +131,11 @@ p,label
     left: 10px;
     right: 10px;
 }
+	
+		#reset a:visited {
+  color: black;
+
+}
 
 </style>
 
