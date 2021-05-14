@@ -76,6 +76,18 @@
 </style>
 
 <body>
+	<header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="makeithappenINDEX.php" class="logo d-flex align-items-center">
+        <img src="toknow.png" alt="">
+        <span>GnothiSeauton</span>
+      </a>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+	
 	<img id="thumb1" src="thumbnail.PNG">
 	<a id="link1" href="mygames/typinggameweb.php">Typing game</a>
 	
